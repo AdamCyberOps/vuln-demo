@@ -3,7 +3,7 @@ import subprocess
 import pickle
 import sqlite3
 import sys
-
+API_KEY=sk_test_FAKE1234567890abcdefghijklmnopqrstuv
 # 1) insecure eval (RCE risk)
 def compute(expr):
     # WARNING: unsafe use of eval
